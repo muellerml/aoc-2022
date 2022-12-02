@@ -24,7 +24,7 @@ fun main() {
                 index == (input.size - 1) -> {
                     elves.add(elf.copy(calories = elf.calories + addToCalories))
                     Elf(0)
-                };
+                }
                 else -> elf.copy(calories = elf.calories + addToCalories)
             }
         }
